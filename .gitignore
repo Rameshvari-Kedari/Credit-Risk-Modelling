@@ -1,0 +1,45 @@
+# Virtual environment
+
+.venv/
+venv/
+env/
+
+# Python cache files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# Data files
+
+data/raw/
+data/processed/
+
+# Model files
+
+models/*.pkl
+models/*.joblib
+
+# IDE settings
+
+.vscode/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# Test and coverage files
+
+.pytest_cache/
+.coverage
+htmlcov/
